@@ -7,7 +7,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <View style={styles.topContainer}>
-        <TitleComponent text="Titulo" />
+        <TitleComponent text="Pokemones" />
         <SearchBar />
       </View>
     </View>
@@ -17,7 +17,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#FFD700',
     alignItems: 'center',
     justifyContent: 'flex-start', 
     paddingTop: 50, 

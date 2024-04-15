@@ -7,7 +7,7 @@ export default function SearchBar() {
     <View style={styles.container}>
       <TextInput
         style={styles.input}
-        placeholder="Search..."
+        placeholder="Buscar..."
         placeholderTextColor="#888"
       />
       <TouchableOpacity style={styles.button}>
@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
     color: '#333',
   },
   button: {
-    backgroundColor: '#007bff',
+    backgroundColor: '#000000',
     borderRadius: 8,
     padding: 10,
     marginLeft: 10,
